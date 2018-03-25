@@ -23,11 +23,8 @@ public class Observable {
     }
 
     public  void removeObserver(Observer o ){
-
         if (observers.contains(o)){
-
             observers.remove(o);
         }
-
     }
 }
